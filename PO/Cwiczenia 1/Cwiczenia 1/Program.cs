@@ -32,6 +32,60 @@ namespace Cwiczenia_1
             }
 
             Console.WriteLine();
+            Console.WriteLine("Cwiczenie 2");
+
+            int a, b, c;
+            a = int.Parse(Console.ReadLine());
+            b = int.Parse(Console.ReadLine());
+            c = int.Parse(Console.ReadLine());
+
+            if ((a < b + c) && (b < a + c) && (c < b + a))
+            {
+                Console.WriteLine("Z tych bokow moze powstac trojkat");
+            }
+            else
+            {
+                Console.WriteLine("Trojkat nie moze powstac");
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Cwiczenie 3");
+
+            int d;
+            d = int.Parse(Console.ReadLine());
+            if (d >= 5 && d <= 15)
+            {
+                while(d > 0)
+                {
+                    d = d - 1;
+                    Console.WriteLine(d);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Podaj inna liczbe");
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Cwiczenie 4");
+
+            int e;
+
+            do
+            {
+                e = int.Parse(Console.ReadLine());
+                if(e == 4)
+                {
+                    Console.WriteLine("Zgadłes liczbe");
+                }
+                else
+                {
+                    Console.WriteLine("Jeszcze raz");
+                }
+            } while (e != 4);
+
+
+
             Console.ReadKey();
 
         }
