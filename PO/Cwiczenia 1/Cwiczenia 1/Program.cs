@@ -31,6 +31,7 @@ namespace Cwiczenia_1
                 Console.Write(tab[i]);
             }
 
+            Console.WriteLine();
             Console.ReadKey();
 
         }
