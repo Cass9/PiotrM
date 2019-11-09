@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cwiczenia6
+{
+    class Car : Vehicle, IRideable
+    {
+        public Car()
+        {
+
+        }
+        void IRideable.Ride()
+        {
+            Console.WriteLine("Jade samochodem");
+        }
+    }
+}
